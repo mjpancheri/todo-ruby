@@ -1,0 +1,3 @@
+<h1 class="display-4">Nova <%= params[:parent_id].present? ? 'sub-' : '' %>tarefa</h1>
+
+<%= render 'form', task: @task %>
